@@ -39,3 +39,24 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+
+/* Media Queries*/
+
+@media(max-width: 800px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  img {
+
+    width: 30%;
+    
+  }
+
+}
