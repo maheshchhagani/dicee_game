@@ -10,10 +10,10 @@
   <body>
 
     <div class="container">
-
-      <h2> Refresh the page to play+
+      <h2>Click on refresh button to play.</h2>
+      <button class="btn" onclick="reload()">Refresh</button>
       <h1>Refresh Me</h1>
-       
+
       <div class="dice">
         <p>Player 1</p>
         <img class="img1" src="images/dice6.png">
@@ -30,6 +30,15 @@
   </body>
 
   <footer>
+    <script>
+      const reloadtButton = document.querySelector("#reload");
+// Reload everything:
+function reload() {
+    reload = location.reload();
+}
+// Event listeners for reload
+reloadButton.addEventListener("click", reload, false);
+    </script>
     <script src="index.js" charset="utf-8"></script>
   </footer>
 </html>
