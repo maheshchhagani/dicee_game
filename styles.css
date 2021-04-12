@@ -1,3 +1,5 @@
+
+
 .container {
   width: 70%;
   margin: auto;
@@ -15,17 +17,46 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 10px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 7rem;
   color: #4ECCA3;
 }
 
+h2 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 30px;
+  color: #4ECCA3;
+}
 p {
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
+}
+
+.btn {
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
 
 img {
@@ -39,7 +70,6 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
-
 
 /* Media Queries*/
 
@@ -60,3 +90,4 @@ footer {
   }
 
 }
+
